@@ -26,7 +26,7 @@ public class UserResource {
 
     @GET
     public Response listAll() {
-        LOGGER.info("Getting users.");
+        LOGGER.info("Getting users from store.");
         final List<User> userList = USER_STORE.entrySet().stream().map(Map.Entry::getValue).collect(Collectors.toList());
         LOGGER.info("User list size: {}.", userList.size());
         return Response.ok(userList).build();
