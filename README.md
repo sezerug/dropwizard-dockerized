@@ -1,7 +1,7 @@
 Dockerized Dropwizard Example
 =====
 
-Sample Dockerized Dropwizard Application
+Sample Dockerized Dropwizard Application.
 
 Requirements
 ------------
